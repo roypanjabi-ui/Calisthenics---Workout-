@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>28-Day Calisthenics Skill Program - Master Your Bodyweight</title>
+
+<meta name="description" content="Follow this free 28-day calisthenics skill program by Prinsh. Includes progressions for Handstands, Planche, and Core strength with daily tracking.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://yourdomain.com/">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+    "@type": "HowTo",
+      "name": "28-Day Calisthenics Skill Program",
+        "description": "A comprehensive 28-day plan to learn calisthenics skills like handstands and planche.",
+          "author": { "@type": "Person", "name": "Prinsh" },
+            "totalTime": "P28D",
+              "step": [
+                  { "@type": "HowToStep", "text": "Warm-up with Jumping Jacks" },
+                      { "@type": "HowToStep", "text": "Strength training with Push-ups and Squats" },
+                          { "@type": "HowToStep", "text": "Skill practice for Handstands and Planche" }
+                            ]
+                            }
+                            </script>
+
+                            <style>
+                            body{margin:0;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;background:#f3f4f6;line-height:1.6;}
+                            header{background:#111827;color:white;padding:24px;text-align:center;}
+                            .container{display:flex;min-height:100vh;max-width:1200px;margin:0 auto;}
+                            .days{width:250px;background:white;border-right:1px solid #ddd;overflow-y:auto;max-height:100vh;}
+                            .days button{width:100%;padding:15px;border:none;border-bottom:1px solid #eee;background:white;text-align:left;cursor:pointer;transition:0.3s;}
+                            .days button.locked{color:#9ca3af;cursor:not-allowed;background:#f9fafb;}
+                            .days button.active{background:#2563eb;color:white;font-weight:bold;}
+                            .content{flex:1;padding:30px;}
+                            .card{background:white;padding:30px;border-radius:12px;box-shadow:0 10px 15px -3px rgba(0,0,0,0.1);max-width:700px;margin:0 auto;}
+                            .card img{width:100%;height:auto;max-height:350px;object-fit:contain;border-radius:12px;background:#000;}
+                            .timer{font-size:32px;font-weight:bold;text-align:center;margin:15px 0;color:#1e40af;}
+                            .timer-btn{padding:12px;margin:6px 0;width:100%;font-size:16px;border:none;border-radius:8px;cursor:pointer;font-weight:bold;}
+                            .start{background:#16a34a;color:white;}
+                            .pause{background:#f59e0b;color:white;}
+                            .done-btn{margin-top:20px;width:100%;padding:15px;background:#111827;color:white;border:none;border-radius:8px;font-size:18px;cursor:pointer;}
+                            @media(max-width:768px){
+                              .container{flex-direction:column;}
+                                .days{width:100%;display:flex;overflow-x:auto;max-height:auto;border-right:none;border-bottom:1px solid #ddd;}
+                                  .days button{flex:0 0 100px;text-align:center;}
+                                  }
+                                  </style>
+                                  </head>
+                                  <body>
+
+                                  <header>
+                                    <h1>28-Day Calisthenics Skill Program</h1>
+                                      <p>Warm-up &bull; Strength &bull; Skills | Designed by Prinsh</p>
+                                      </header>
+
+                                      <div class="container">
+                                        <nav class="days" id="dayButtons" aria-label="Program Days"></nav>
+                                          
+                                            <main class="content" id="content">
+                                                <article class="card">
+                                                      <h2>Calisthenics Training: Day 1</h2>
+                                                            <p>Welcome to the 28-Day Calisthenics Skill Program. This workout is designed to build foundational strength and advanced skills like the Handstand and Planche.</p>
+                                                                  <h3>Loading Exercise...</h3>
+                                                                        <p>If the program doesn't load, please ensure JavaScript is enabled.</p>
+                                                                            </article>
+                                                                              </main>
+                                                                              </div>
+
+                                                                              <script>
+                                                                              const urls = {
+                                                                               "Jumping Jacks (Warm-Up)":"https://i.ibb.co/bjwXGZyh/57cce0afa73a4b4c9c8c139d08aec588.gif",
+                                                                                "Wall Push-Up":"https://uploads.onecompiler.io/449g96br4/449g94a2b/WALL-PUSHUPS.gif",
+                                                                                 "Push-Up":"https://i.ibb.co/v4gqG2X6/VID-20260103-175841.gif",
+                                                                                  "Incline Push-Up":"https://i.ibb.co/RRK8bHB/flex-o-inclinada-no-banco.gif",
+                                                                                   "Decline Push-Up":"https://i.ibb.co/ymTnH9P3/859.gif",
+                                                                                    "Bodyweight Squat":"https://i.ibb.co/SwC9xVgq/493.gif",
+                                                                                     "Leg Raises":"https://i.ibb.co/Ld46ZZ3Y/VID-20260103-180133.gif",
+                                                                                      "Plank Hold":"https://i.ibb.co/b5dF986d/631.gif",
+                                                                                       "Hollow Body Hold":"https://uploads.onecompiler.io/449g96br4/449gvr377/1000442191.jpg",
+                                                                                        "L-Sit Hold":"https://i.ibb.co/tpRjfZyx/male-athlete-doing-l-sit-exercise-on-bricks-2021-08-27-19-27-31-utc.jpg",
+                                                                                         "Crow Pose":"https://i.ibb.co/PZNpFnL4/VID-20260103-180238.gif",
+                                                                                          "Wall Handstand Hold":"https://uploads.onecompiler.io/449g96br4/449gzfty6/1000442193.jpg",
+                                                                                           "Pike Shoulder Tap":"https://i.ibb.co/B5cMZRFc/VID-20260103-175551.gif",
+                                                                                            "Wall Handstand Shoulder Tap":"https://ratty-crimson-xvsdmd7utq.edgeone.app/Wall-Handstand-Pushup-7.gif",
+                                                                                             "Wall Handstand Kick-Up":"https://i.ibb.co/Kcpd0BFG/handstand-pushup-gif-oblique-view-handstand-pushup-technique.gif",
+                                                                                              "Tuck Planche Lean":"https://i.ibb.co/F1DQ0FF/lean-planche.png",
+                                                                                               "Tuck Planche Hold":"https://uploads.onecompiler.io/449g96br4/449gzfty6/1000442190.gif"
+                                                                                               };
+
+                                                                                               const program = {
+                                                                                               1:[
+                                                                                                {name:"Jumping Jacks (Warm-Up)",img:urls["Jumping Jacks (Warm-Up)"],description:"Full body warm-up to raise heart rate.",benefits:["Cardio","Mobility"],type:"hold",time:30},
+                                                                                                 {name:"Wall Push-Up",img:urls["Wall Push-Up"],description:"Beginner push-up using wall.",benefits:["Chest","Shoulders"],type:"reps",count:12},
+                                                                                                  {name:"Push-Up",img:urls["Push-Up"],description:"Standard floor push-up.",benefits:["Chest","Arms"],type:"reps",count:10},
+                                                                                                   {name:"Incline Push-Up",img:urls["Incline Push-Up"],description:"Hands elevated push-up.",benefits:["Upper chest"],type:"reps",count:10},
+                                                                                                    {name:"Decline Push-Up",img:urls["Decline Push-Up"],description:"Feet elevated push-up.",benefits:["Chest power"],type:"reps",count:8},
+                                                                                                     {name:"Bodyweight Squat",img:urls["Bodyweight Squat"],description:"Basic squat.",benefits:["Leg strength"],type:"reps",count:15},
+                                                                                                      {name:"Leg Raises",img:urls["Leg Raises"],description:"Raise legs lying on floor.",benefits:["Lower abs"],type:"reps",count:12},
+                                                                                                       {name:"Plank Hold",img:urls["Plank Hold"],description:"Core stability hold.",benefits:["Core"],type:"hold",time:30},
+                                                                                                        {name:"Hollow Body Hold",img:urls["Hollow Body Hold"],description:"Tight hollow position.",benefits:["Abs","Core"],type:"hold",time:20},
+                                                                                                         {name:"L-Sit Hold",img:urls["L-Sit Hold"],description:"Legs lifted core hold.",benefits:["Abs","Hip flexors"],type:"hold",time:15},
+                                                                                                          {name:"Crow Pose",img:urls["Crow Pose"],description:"Balance on hands.",benefits:["Balance","Wrists"],type:"hold",time:15},
+                                                                                                           {name:"Wall Handstand Hold",img:urls["Wall Handstand Hold"],description:"Handstand against wall.",benefits:["Shoulders"],type:"hold",time:20},
+                                                                                                            {name:"Pike Shoulder Tap",img:urls["Pike Shoulder Tap"],description:"Shoulder taps in pike.",benefits:["Shoulders","Core"],type:"reps",count:10},
+                                                                                                             {name:"Wall Handstand Shoulder Tap",img:urls["Wall Handstand Shoulder Tap"],description:"Tap shoulders in wall HS.",benefits:["Shoulders","Core"],type:"reps",count:10},
+                                                                                                              {name:"Wall Handstand Kick-Up",img:urls["Wall Handstand Kick-Up"],description:"Kick up practice.",benefits:["Control"],type:"reps",count:6},
+                                                                                                               {name:"Tuck Planche Lean",img:urls["Tuck Planche Lean"],description:"Lean forward in tuck.",benefits:["Planche strength"],type:"hold",time:15},
+                                                                                                                {name:"Tuck Planche Hold",img:urls["Tuck Planche Hold"],description:"Hold tuck planche.",benefits:["Advanced strength"],type:"hold",time:10}
+                                                                                                                ]
+                                                                                                                };
+
+                                                                                                                for(let d=2; d<=28; d++){
+                                                                                                                 program[d] = program[d-1].map(ex=>{
+                                                                                                                   if(ex.type==="reps") return {...ex,count:ex.count+1};
+                                                                                                                     if(ex.type==="hold") return {...ex,time:ex.time+5};
+                                                                                                                       return ex;
+                                                                                                                        });
+                                                                                                                        }
+
+                                                                                                                        let unlockedDay = Number(localStorage.getItem("unlockedDay"))||1;
+                                                                                                                        let currentDay=1;
+                                                                                                                        let exerciseIndex=0;
+                                                                                                                        let cycleCount=0;
+                                                                                                                        const cyclesPerDay=3;
+                                                                                                                        let timerInterval=null;
+                                                                                                                        let timeLeft=0;
+                                                                                                                        let timerRunning=false;
+
+                                                                                                                        const dayButtons=document.getElementById("dayButtons");
+                                                                                                                        const content=document.getElementById("content");
+
+                                                                                                                        function renderDays(){
+                                                                                                                         dayButtons.innerHTML="";
+                                                                                                                          for(let i=1;i<=28;i++){
+                                                                                                                            const btn=document.createElement("button");
+                                                                                                                              btn.textContent="Day "+i;
+                                                                                                                                if(i>unlockedDay)btn.classList.add("locked");
+                                                                                                                                  if(i===currentDay)btn.classList.add("active");
+                                                                                                                                    btn.onclick=()=>{if(i<=unlockedDay) { location.hash = 'day'+i; loadDay(i); }};
+                                                                                                                                      dayButtons.appendChild(btn);
+                                                                                                                                       }
+                                                                                                                                       }
+
+                                                                                                                                       function loadDay(day){
+                                                                                                                                        currentDay=day;
+                                                                                                                                         exerciseIndex=0;
+                                                                                                                                          cycleCount=0;
+                                                                                                                                           renderDays();
+                                                                                                                                            showExercise();
+                                                                                                                                            }
+
+                                                                                                                                            function startTimer(){
+                                                                                                                                             if(timerRunning) return;
+                                                                                                                                              timerRunning=true;
+                                                                                                                                               timerInterval=setInterval(()=>{
+                                                                                                                                                 timeLeft--;
+                                                                                                                                                   document.getElementById("timer").textContent=timeLeft+" sec";
+                                                                                                                                                     if(timeLeft<=0){
+                                                                                                                                                        clearInterval(timerInterval);
+                                                                                                                                                           document.getElementById("timer").textContent="Done ✅";
+                                                                                                                                                              timerRunning=false;
+                                                                                                                                                                }
+                                                                                                                                                                 },1000);
+                                                                                                                                                                 }
+
+                                                                                                                                                                 function pauseTimer(){
+                                                                                                                                                                  clearInterval(timerInterval);
+                                                                                                                                                                   timerRunning=false;
+                                                                                                                                                                   }
+
+                                                                                                                                                                   function showExercise(){
+                                                                                                                                                                    clearInterval(timerInterval);
+                                                                                                                                                                     timerRunning=false;
+                                                                                                                                                                      const ex=program[currentDay][exerciseIndex];
+                                                                                                                                                                       const benefitsHTML=ex.benefits.map(b=>`<li>${b}</li>`).join("");
+
+                                                                                                                                                                        // Improved Semantic HTML for SEO
+                                                                                                                                                                         content.innerHTML=`
+                                                                                                                                                                          <article class="card">
+                                                                                                                                                                            <header>
+                                                                                                                                                                                <p><strong>Step ${exerciseIndex + 1} of ${program[currentDay].length}</strong></p>
+                                                                                                                                                                                    <h2>Day ${currentDay}: ${ex.name}</h2>
+                                                                                                                                                                                      </header>
+                                                                                                                                                                                        <img src="${ex.img}" loading="lazy" alt="Instructional gif for ${ex.name} calisthenics exercise" title="${ex.name} Tutorial">
+                                                                                                                                                                                          <section>
+                                                                                                                                                                                              <p><strong>Workout Description:</strong> ${ex.description}</p>
+                                                                                                                                                                                                  ${ex.type==="reps"
+                                                                                                                                                                                                        ? `<p><strong>Target:</strong> ${ex.count} Repetitions</p>`
+                                                                                                                                                                                                              : `<div class="timer" id="timer" aria-live="polite">${ex.time} sec</div>
+                                                                                                                                                                                                                       <button class="timer-btn start" onclick="startTimer()">Start Timer</button>
+                                                                                                                                                                                                                                <button class="timer-btn pause" onclick="pauseTimer()">Pause</button>`}
+                                                                                                                                                                                                                                    <h3>Muscles Worked & Benefits</h3>
+                                                                                                                                                                                                                                        <ul>${benefitsHTML}</ul>
+                                                                                                                                                                                                                                          </section>
+                                                                                                                                                                                                                                            <button class="done-btn" onclick="doneExercise()">Complete Exercise</button>
+                                                                                                                                                                                                                                             </article>`;
+
+                                                                                                                                                                                                                                              if(ex.type==="hold") timeLeft=ex.time;
+                                                                                                                                                                                                                                              }
+
+                                                                                                                                                                                                                                              function doneExercise(){
+                                                                                                                                                                                                                                               clearInterval(timerInterval);
+                                                                                                                                                                                                                                                exerciseIndex++;
+                                                                                                                                                                                                                                                 if(exerciseIndex>=program[currentDay].length){
+                                                                                                                                                                                                                                                   exerciseIndex=0;
+                                                                                                                                                                                                                                                     cycleCount++;
+                                                                                                                                                                                                                                                       if(cycleCount>=cyclesPerDay){
+                                                                                                                                                                                                                                                          if(unlockedDay<28){
+                                                                                                                                                                                                                                                              unlockedDay++;
+                                                                                                                                                                                                                                                                  localStorage.setItem("unlockedDay",unlockedDay);
+                                                                                                                                                                                                                                                                     }
+                                                                                                                                                                                                                                                                        content.innerHTML=`
+                                                                                                                                                                                                                                                                            <div class="card" style="text-align:center;">
+                                                                                                                                                                                                                                                                                 <h2>Day ${currentDay} Fully Completed! 🎉</h2>
+                                                                                                                                                                                                                                                                                      <p>You've finished all 3 rounds. See you tomorrow for Day ${currentDay + 1}!</p>
+                                                                                                                                                                                                                                                                                          </div>`;
+                                                                                                                                                                                                                                                                                             renderDays();
+                                                                                                                                                                                                                                                                                                return;
+                                                                                                                                                                                                                                                                                                  }
+                                                                                                                                                                                                                                                                                                   }
+                                                                                                                                                                                                                                                                                                    showExercise();
+                                                                                                                                                                                                                                                                                                     window.scrollTo(0,0);
+                                                                                                                                                                                                                                                                                                     }
+
+                                                                                                                                                                                                                                                                                                     // Check URL Hash on load (e.g., yoursite.com/#day2)
+                                                                                                                                                                                                                                                                                                     window.onload = () => {
+                                                                                                                                                                                                                                                                                                       const hash = window.location.hash.replace('#day', '');
+                                                                                                                                                                                                                                                                                                         if(hash && hash <= unlockedDay) {
+                                                                                                                                                                                                                                                                                                             currentDay = parseInt(hash);
+                                                                                                                                                                                                                                                                                                               }
+                                                                                                                                                                                                                                                                                                                 renderDays();
+                                                                                                                                                                                                                                                                                                                   loadDay(currentDay);
+                                                                                                                                                                                                                                                                                                                   };
+                                                                                                                                                                                                                                                                                                                   </script>
+                                                                                                                                                                                                                                                                                                                   </body>
+                                                                                                                                                                                                                                                                                                                   </html>
+                                                                                                                                                                                                                                                                                                                   
